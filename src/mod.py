@@ -6,7 +6,7 @@ def pi(n):
  PI=0
  for i in range(1,n+1):
     x=(i-.5)/float(n)
-    fx=4/(1+(x*x)
+    fx=4/(1+(x*x))
     PI=PI+(fx)/n 
    # print 'subintervalo: [%3.2f,%3.2f] x: %f fx: %6.5f '    %  ((i-1)/float(n), i/float(n), x, fx)
  return PI
